@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Tatiana Nekrashevich](https://up.htmlacademy.ru/htmlcss/26/user/967265).
-* Наставник: `Неизвестно`.
+* Наставник: `Анна Лемина`https://vk.com/anna_hatiko
 
 ---
 
