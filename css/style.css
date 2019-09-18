@@ -1,0 +1,66 @@
+body {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+
+
+}
+
+.navigation a {
+  font-weight: 700;
+  line-height: 26px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.navigation ul {
+  list-style-type: none;
+}
+
+.sedona-intro {
+  background: #e3f0f8;
+  background-image: url("../img/sedona-background.jpg");
+  background-repeat: no-repeat;
+}
+
+.slogan h2,
+.hotel-name {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+  text-decoration: none;
+}
+
+.hotel-search h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #000000;
+
+}
+
+.btn-font {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 26px;
+  color: #eeeeee;
+  text-decoration: none;
+}
+
+.search-form {
+  display: none;
+}
+
+.social {
+
+  list-style-type: none;
+}
+
+.btn-hotels {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  color: #eeeeee;
+  text-decoration: none;
+}
