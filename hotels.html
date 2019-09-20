@@ -18,8 +18,8 @@
     <a href="index.html">
       <img src="img/logo-sedona.svg" alt="logo">
     </a>
-    <nav class="navigation reset-list">
-      <ul>
+    <nav class="navigation">
+      <ul class="reset-list">
         <li><a href="#">Информация</a></li>
         <li><a href="#">Фото и Видео</a></li>
         <lI><a href="#">Карта Штата</a></lI>
@@ -28,94 +28,96 @@
     </nav>
   </header>
   <main>
-    <form method="get">
-      <fieldset class="reset-list">
+    <section class="filter">
+      <form method="get">
+        <fieldset>
 
 
-        <legend>Инфраструктура:</legend>
-        <ul>
-          <li>
-            <input type="checkbox" name="pool" id="filter-pool" checked>
-            <label for="filter-pool">Бассейн</label></li>
-          <li>
-            <input type="checkbox" name="parking-lot" id="filter-parking">
-            <label for="filter-parking">Парковка</label></li>
+          <legend class="white-hotel">Инфраструктура:</legend>
+          <ul class="reset-list header-font">
+            <li>
+              <input type="checkbox" name="pool" id="filter-pool" checked>
+              <label for="filter-pool">Бассейн</label></li>
+            <li>
+              <input type="checkbox" name="parking-lot" id="filter-parking">
+              <label for="filter-parking">Парковка</label></li>
 
-          <li>
-            <input type="checkbox" name="Wi-FI" id="filter-Wi-Fi">
-            <label for="filter-Wi-Fi">Wi-Fi</label></li>
-        </ul>
-      </fieldset>
-      <fieldset class="reset-list">
-        <legend>Тип жилья:</legend>
-        <ul>
-          <li>
-            <input type="checkbox" name="hotel" id="filter-hotel" checked>
-            <label for="filter-hotel">Гостиница</label></li>
-          <li>
-            <input type="checkbox" name="motel" id="filter-motel" checked>
-            <label for="filter-motel">Мотель</label></li>
-          <li>
-            <input type="checkbox" name="apartment" id="filter-apartment" checked>
-            <label for="filter-apartment">Апартменты</label></li>
-        </ul>
-      </fieldset>
-      <fieldset class="reset-list">
-        <legend> Стоимость в сутки(Р):</legend>
-        <ul>
-          <li>
-            <label for="min">От</label>
-            <input type="text" id="min" name="minimum-value" value="0"></li>
-          <li>
-            <label for="max">До</label>
-            <input type="text" id="max" name="maximum-value" value="3000"></li>
-          <div>
-            <div class="price-scale"></div>
-
-            <span><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px" height="23px"
-                viewBox="0 0 20 23" enable-background="new 0 0 20 23" xml:space="preserve">
-                <path opacity="0.3" fill="#ABABAB" d="M10,20C4.477,20,0,15.522,0,10v2c0,5.522,4.477,10,10,10c5.522,0,10-4.478,10-10v-2
-             C20,15.522,15.522,20,10,20z" />
-                <circle fill="#FFFFFF" cx="10" cy="10" r="10" />
-                <circle fill="#ABABAB" cx="10" cy="10" r="2" /></svg></span>
-
-            <span><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px" height="23px"
-                viewBox="0 0 20 23" enable-background="new 0 0 20 23" xml:space="preserve">
-                <path opacity="0.3" fill="#ABABAB" d="M10,20C4.477,20,0,15.522,0,10v2c0,5.522,4.477,10,10,10c5.522,0,10-4.478,10-10v-2
-             C20,15.522,15.522,20,10,20z" />
-                <circle fill="#FFFFFF" cx="10" cy="10" r="10" />
-                <circle fill="#ABABAB" cx="10" cy="10" r="2" /></svg></span>
+            <li>
+              <input type="checkbox" name="Wi-FI" id="filter-Wi-Fi">
+              <label for="filter-Wi-Fi">Wi-Fi</label></li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend class="white-hotel">Тип жилья:</legend>
+          <ul class="reset-list header-font">
+            <li>
+              <input type="checkbox" name="hotel" id="filter-hotel" checked>
+              <label for="filter-hotel">Гостиница</label></li>
+            <li>
+              <input type="checkbox" name="motel" id="filter-motel" checked>
+              <label for="filter-motel">Мотель</label></li>
+            <li>
+              <input type="checkbox" name="apartment" id="filter-apartment" checked>
+              <label for="filter-apartment">Апартменты</label></li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend class="white-hotel"> Стоимость в сутки(Р):</legend>
+          <ul class="reset-list header-font">
+            <li>
+              <label for="min">От</label>
+              <input type="text" id="min" name="minimum-value" value="0"></li>
+            <li>
+              <label for="max">До</label>
+              <input type="text" id="max" name="maximum-value" value="3000"></li>
             <div>
-              <class="price-range">
+              <div class="price-scale"></div>
+
+              <span><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px" height="23px"
+                  viewBox="0 0 20 23" enable-background="new 0 0 20 23" xml:space="preserve">
+                  <path opacity="0.3" fill="#ABABAB" d="M10,20C4.477,20,0,15.522,0,10v2c0,5.522,4.477,10,10,10c5.522,0,10-4.478,10-10v-2
+             C20,15.522,15.522,20,10,20z" />
+                  <circle fill="#FFFFFF" cx="10" cy="10" r="10" />
+                  <circle fill="#ABABAB" cx="10" cy="10" r="2" /></svg></span>
+
+              <span><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px" height="23px"
+                  viewBox="0 0 20 23" enable-background="new 0 0 20 23" xml:space="preserve">
+                  <path opacity="0.3" fill="#ABABAB" d="M10,20C4.477,20,0,15.522,0,10v2c0,5.522,4.477,10,10,10c5.522,0,10-4.478,10-10v-2
+             C20,15.522,15.522,20,10,20z" />
+                  <circle fill="#FFFFFF" cx="10" cy="10" r="10" />
+                  <circle fill="#ABABAB" cx="10" cy="10" r="2" /></svg></span>
+              <div>
+                <class="price-range">
+              </div>
             </div>
-          </div>
 
 
-          <button type="btn btn-catalog-">Показать</button>
-      </fieldset>
-    </form>
-    <section class="reset-list">
-      <ul>
+            <button type class="btn btn-catalog">Показать</button>
+        </fieldset>
+      </form>
+    </section>
+    <section>
+      <ul class="reset-list sort-category">
         <li>
           <h2>Найдено:3</h2>
         </li>
         <li>
-          <h2>Сортировка</h2>
+          <p>Сортировка:</p>
         </li>
-        <li><a href="#">По цене</a></li>
-        <li><a href="#">По типу</a></li>
-        <li><a href="#">По рейтингу</a></li>
+        <li class="sort-category-item"><a href="#">По цене</a></li>
+        <li class="sort-category-items" {><a href="#">По типу</a></li>
+        <li class="sort-category-items"><a href="#">По рейтингу</a></li>
       </ul>
-      <ul>
+      <ul class="reset-list">
         <li><a href="#"><span>arrow</span></a></li>
         <li><a href="#"><span>arrow</span></a></li>
       </ul>
     </section>
 
-    <section class="reset-list">
-      <ul>
+    <section>
+      <ul class="reset-list">
         <li>
           <a href="#"><img src="img/hotel 1.jpg" alt="Amarata Resort & Spa"></a>
           <a href="#" class="hotel-name">
@@ -173,8 +175,8 @@
   </main>
   <footer>
     <h3>#visitsedona</h3>
-    <div class="reset-list">
-      <ul>
+    <div>
+      <ul class="reset-list">
         <li><a href="#"><img src="img/twitter.svg">
             <aria-label="Твитер">
               </aria-label>
