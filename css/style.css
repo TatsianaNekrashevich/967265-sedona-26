@@ -7,6 +7,11 @@ body {
 
 }
 
+.reset-list ul {
+  list-style-type: none;
+}
+
+
 .navigation a {
   font-weight: 700;
   line-height: 26px;
@@ -14,9 +19,7 @@ body {
   text-decoration: none;
 }
 
-.navigation ul {
-  list-style-type: none;
-}
+
 
 .sedona-intro {
   background: #e3f0f8;
@@ -40,27 +43,22 @@ body {
 
 }
 
-.btn-font {
-  font-size: 21px;
-  font-weight: 700;
-  line-height: 26px;
-  color: #eeeeee;
-  text-decoration: none;
-}
-
 .search-form {
   display: none;
 }
 
-.social {
-
-  list-style-type: none;
-}
-
-.btn-hotels {
-  font-size: 14px;
-  line-height: 21px;
+.btn {
   font-weight: 700;
   color: #eeeeee;
   text-decoration: none;
+}
+
+.btn-catalog {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.btn-main {
+  font-size: 21px;
+  line-height: 26px;
 }
