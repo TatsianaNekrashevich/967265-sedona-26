@@ -11,62 +11,68 @@
 </head>
 
 <body>
-  <header>
+  <header class="container header">
+    <a href="#"><img class="main-header-logo" src="img/logo-sedona.svg" alt="Логотип SEDONA">
+    </a>
     <nav class="navigation">
-      <ul class="reset-list">
+      <ul class="reset-list navigation-list">
         <li><a href="#">Информация</a></li>
         <li><a href="#">Фото и Видео</a></li>
         <lI><a href="#">Карта Штата</a></lI>
         <li><a href="hotels.html">Гостиницы</a></li>
       </ul>
-      <a href="#"><img src="img/logo-sedona.svg" alt="Логотип SEDONA">
-      </a>
+
     </nav>
   </header>
-  <main>
-    <h1 aria-label="Sedona"></h1>
+  <main class="container">
+
     <section class="sedona-intro">
-      <img src="img/intro-welcome.svg" alt="Седона">
+      <img class="intro-welcome" src="img/intro-welcome.svg" width="459" height="353" alt="Седона">
     </section>
-    <section class="slogan">
+    <section class="slogan-interested">
       <h2>Седона- небольшой городок в Аризоне,
         <br>заслуживающий большего!</h2>
       <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон</p>
     </section>
     <section class="description-block">
-      <h3 class="font-main">Настоящий городок</h3>
-      <p>-№1-</p>
-      <p class="white-main">Седона-не аттракцион для туристов,
-        <br> там течет своя жизнь</p>
-      <p><img src="img/restaurant.jpg" alt="Фото ресторана">
-      </p>
+      <div class="description-item description-item-1">
+        <h3 class="font-main">Настоящий городок</h3>
+        <p>-№1-</p>
+        <p class="white-main">Седона-не аттракцион для туристов,
+          <br> там течет своя жизнь</p>
+      </div>
+      <div class="restaurant-pic"><img src="img/restaurant.jpg" alt="Фото ресторана">
+      </div>
     </section>
     <section>
-      <ul class="reset-list">
-        <li>
+      <ul class="reset-list features features-1">
+        <li class="feature-item">
+          <img src="img/icon-1.svg">
           <h3>Жилье</h3>
           <p>Рекомендуем пожить в настоящем
-            <br>мотеле, все как в кино!
+            мотеле, <br>все как в кино!
           </p>
         </li>
-        <li>
+
+        <li class="feature-item">
+          <img src="img/icon-3.svg">
           <h3>Еда</h3>
           <p>Всегда заказывайте фирменный бургер,
             <br> вы не разочаруетесь
           </p>
         </li>
-        <li>
+        <li class="feature-item">
+          <img src="img/icon-2.svg">
           <h3>Сувениры</h3>
           <p>Не только китайского,
-            <br> но и местного производства
+            но и местного <br>производства
           </p>
         </li>
       </ul>
     </section>
     <section class="description-block">
       <img src="img/canyon_.jpg" alt="Фото каньона">
-      <div>
-
+      <div class="description-item description-item-2">
         <h3 class="font-main">Там есть мост дьявола</h3>
         <p>-№2-</p>
         <p class="white-main">Да, по нему можно пройти если конечно
@@ -74,28 +80,28 @@
       </div>
     </section>
     <section class="advantages">
-      <ul class="reset-list">
-        <li>
-          <h3>Небольшая площадь</h3>
+      <ul class="reset-list features features-2">
+        <li class="feature-item">
+          <h3>Небольшая<br>площадь</h3>
           <p>-№3-</p>
           <p>Все достопримечательности
             <br>находятся очень близко</p>
         </li>
-        <li>
-          <h3>Красивая дорога</h3>
+        <li class="feature-item">
+          <h3>Красивая<br>дорога</h3>
           <p>-№4-</p>
           <p>Ехать в Седону из Лас-Вегаса совсем
             <br>не скучно!</p>
         </li>
-        <li>
-          <h3>Мало туристов</h3>
+        <li class="feature-item">
+          <h3>Мало<br>туристов</h3>
           <p>-№5-</p>
           <p>Большинство едет в Гранд-Каньон
             <br>и толпится там</p>
         </li>
       </ul>
     </section>
-    <section class="hotel-search">
+    <section class="hotel-search slogan-interested">
       <h3>Заинтересовались?</h3>
       <p>Укажите предполагаемые даты поездки,
         <br>и мы покажем вам лучшие предложения гостиниц в седоне
@@ -125,28 +131,26 @@
       <img src="img/map.png" alt="Карта местности Седоны">
     </section>
   </main>
-  <footer>
+  <footer class="contacts container">
     <h3>#visitsedona</h3>
+    <ul class="reset-list social">
+      <li><a href="#" class="social-link"><img src="img/twitter.svg">
+          <aria-label="Твитер">
+            </aria-label>
+        </a></li>
+      <li><a href="#" class="social-link"><img src="img/fb-icon.svg">
+          <aria-label="Фейсбук">
+            </aria-label>
+        </a></li>
+      <li><a href="#" class="social-link"><img src="img/youtube.svg">
+          <aria-label="Ютуб">
+            </aria-label>
+        </a></li>
+    </ul>
     <div>
-      <ul class="reset-list">
-        <li><a href="#"><img src="img/twitter.svg">
-            <aria-label="Твитер">
-              </aria-label>
-          </a></li>
-        <li><a href="#"><img src="img/fb-icon.svg">
-            <aria-label="Фейсбук">
-              </aria-label>
-          </a></li>
-        <li><a href="#"><img src="img/youtube.svg">
-            <aria-label="Ютуб">
-              </aria-label>
-          </a></li>
-      </ul>
+      <p class="copyright">
+        website by <a href="http://htmlacademy.ru"><img class="html-academy" src="img/logo-htmlacademy.svg"></a></p>
     </div>
-    <p>
-      website by
-      <a href="http://htmlacademy.ru"><img src="img/logo-htmlacademy.svg"></a>
-    </p>
   </footer>
 </body>
 
