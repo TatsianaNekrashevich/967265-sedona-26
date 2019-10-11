@@ -7,6 +7,7 @@ body {
 
 label {
   position: relative;
+  line-height: 45px;
 }
 
 .font-main {
@@ -614,12 +615,12 @@ label {
   position: absolute;
 }
 
-.slogan-interested::before {
+.sedona-intro::after {
   content: "";
   background-image: url("../img/polygon.svg");
   position: absolute;
   height: 57px;
-  position: absolute;
+  width: 100%;
   left: 0;
   bottom: 0;
   background-repeat: no-repeat;
@@ -760,6 +761,7 @@ label {
   left: -41px;
   top: -2px;
   cursor: pointer;
+  margin-bottom: 21px;
 }
 
 .checkbox input[type="checkbox"]:checked + .checkbox-indicator::before {
