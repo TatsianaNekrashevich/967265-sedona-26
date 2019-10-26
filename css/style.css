@@ -568,6 +568,9 @@ label {
 .restaurant-pic {
   display: flex;
 }
+.rest-size {
+  width: 100%;
+}
 
 .container {
   width: 1200px;
