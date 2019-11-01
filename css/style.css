@@ -131,7 +131,7 @@ label {
   height: 593px;
 }
 
-.map > iframe {
+.map>iframe {
   top: 0;
   left: 0;
   width: 100%;
@@ -196,7 +196,7 @@ label {
   position: absolute;
   width: 458px;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%);
   top: 0;
   padding-left: 56px;
   padding-right: 54px;
@@ -352,9 +352,11 @@ label {
 .adult-amount label {
   margin-right: 40px;
 }
+
 .adult-amount:nth-of-type(2) label {
   margin-right: 26px;
 }
+
 .adult-button {
   font-size: 21px;
   line-height: 26px;
@@ -372,7 +374,8 @@ label {
 .modal-login {
   background-color: #766357;
   width: 568px;
-  padding: 32px 139px 27px 137px;
+  border: none;
+  padding: 32px 139px 29px 137px;
   text-decoration: none;
   color: #ffffff;
   font-weight: 700;
@@ -1006,6 +1009,7 @@ label {
   justify-content: flex-end;
   padding-top: 10px;
   padding-left: 0px;
+  list-style: none;
 }
 
 .star {
@@ -1193,7 +1197,7 @@ label {
   background: #ffffff;
 }
 
-.checkbox input[type="checkbox"] + .checkbox-indicator::before {
+.checkbox input[type="checkbox"]+.checkbox-indicator::before {
   content: "";
   position: absolute;
   background-image: url(../img/checkbox-off.svg);
@@ -1206,11 +1210,11 @@ label {
   margin-bottom: 21px;
 }
 
-.checkbox input[type="checkbox"]:checked + .checkbox-indicator::before {
+.checkbox input[type="checkbox"]:checked+.checkbox-indicator::before {
   background-image: url(../img/checkbox-on.svg);
 }
 
-.checkbox input[type="checkbox"]:focus + .checkbox-indicator::before {
+.checkbox input[type="checkbox"]:focus+.checkbox-indicator::before {
   outline: 2px solid #4d90fe;
 }
 
