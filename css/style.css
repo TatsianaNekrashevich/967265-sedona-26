@@ -461,7 +461,7 @@ label {
   -ms-flex-align: center;
   align-items: center;
   padding-bottom: 29px;
-  padding-left: 12px;
+  padding-left: 37px;
 }
 
 .sort-category p {
@@ -474,6 +474,11 @@ label {
   margin: 0;
   margin-right: 51px;
   padding-left: 61px;
+}
+
+.sort-category li:first-of-type { 
+  font-size: 12px;
+    padding-top: 36px;
 }
 
 .sort-category li:not(:nth-child(1)) {
@@ -559,6 +564,11 @@ label {
   text-align: center;
   margin: 0px;
   margin-bottom: 22px;
+}
+
+.advantage-item:nth-of-type(3) p {
+  margin-left: 75px;
+  margin-right: 72px;
 }
 
 .navigation-list {
@@ -889,9 +899,19 @@ label {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+}
+
+.search-results h2 {
+  margin: 0px;
+    margin-top: 33px;
+    margin-left: 72px;
+}
+
+.search-results p {
+  font-size: 12px;
+    margin: 0px;
+    margin-top: 35px;
+    margin-left: 49px;
 }
 
 .hotel-list {
@@ -909,7 +929,7 @@ label {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-right: 73px;
+  padding-right: 67px;
   border-bottom: 2px solid #e5e5e5;
   padding-top: 18px;
   padding-bottom: 24px;
@@ -994,6 +1014,7 @@ label {
   padding: 4px 13px 5px 18px;
   margin-bottom: 0px;
   margin-top: 39px;
+  margin-right: 6px;
 }
 
 .rating-stars {
@@ -1021,7 +1042,8 @@ label {
   display: -ms-flexbox;
   display: flex;
   padding-right: 73px;
-  padding-top: 37px;
+  padding-top: 34px;
+  margin-left: auto;
 }
 
 .arrow-down:hover {
